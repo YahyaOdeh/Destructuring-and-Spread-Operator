@@ -29,7 +29,7 @@ const newPlayer = {...player, mid}
 console.log(newPlayer) 
 
 // update this function to return the type is other if no parameters passed
-const fn = type => `the type is ${type}` 
+const fn = (type = 'other') => `the type is ${type}` 
 
 // you can't touch this line
 console.log(fn()) 
